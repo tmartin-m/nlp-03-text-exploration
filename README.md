@@ -271,3 +271,16 @@ and groups of related terms emerge naturally from the data.
 
 Even before any modeling, we can begin to distinguish categories
 and see how meaning is reflected through **patterns of use**.
+
+## Make a Technical Modification
+
+I elected to modify the output this week. My original goal was to change the hard coding for the bar chart away from a specific category to be able to draw more observations, but struggled to produce  the visual successfully. I undid my changes and elected to modify the category selected to "car" instead of "dog."
+
+The update was made successfully producing a bar chart with the most frequent tokens in the "car" category including the, wheels, vehicle, four, and road.
+
+![Car Tokens](output.png)
+
+From the visual I observed the following:
+- The token the 'the' dominated over the other tokens in the category
+- If the stop word is removed all other tokens results are identical
+- Additional visuals could be added to compare if stop words impact other categories as much as the car category
