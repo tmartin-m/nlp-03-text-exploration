@@ -284,3 +284,19 @@ From the visual I observed the following:
 - The token the 'the' dominated over the other tokens in the category
 - If the stop word is removed all other tokens results are identical
 - Additional visuals could be added to compare if stop words impact other categories as much as the car category
+
+## Apply the Skills to a New Problem
+
+For the new problem I first elected to update the corpus to the patients, doctors and hospitals options in the project instructions. I ran into a small error due to referring to the categories as plurals originally in the For target in code in section 7. After fixing te categories, the update ran successfully and I added a nurses category to the corpus and reran the notebook.
+
+To aid in the visual comparison I added a second bar chart for the newly added nurse category as well as updating the original chart to pull the top tokens for the patient category. Both visuals ran successfully.
+
+![Patient Tokens](output1.png)
+
+![Nurse Tokens](output2.png)
+
+From both charts we saw similar observations as when we looked as the car category including:
+- The token 'the' dominated over the other tokens in the category
+- The category token appeared second most frequently for both patients and nurses
+- The nurse category top tokens included another cateogy token 'doctor'
+- The tokens frequency after the stop word and category are fairly even for both categories
